@@ -10,12 +10,12 @@ n(int): input by user, represents the size of the magic square (prime number bet
 """
 
 import random
-“””
+"""
 Function: Finds out if the inputted number is prime
 
 Parameters:
 num(int): Number inputted by the user
-“””
+"""
 def prime_num(num):
     if num <= 1:
         return False
